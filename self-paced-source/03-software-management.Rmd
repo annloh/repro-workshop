@@ -99,10 +99,18 @@ GitHub action is a cloud service that runs software when certain events trigger 
 
 <span style="color:green">Add a GitHub Action to build the required Docker image with <span style="color:orange">repro::use_gha_docker()</span></span>
 
+
+```r
+repro::use_gha_docker()
+```
+
 <span style="color:green">To trigger the action, commit and push your changes.</span>
 
 <span style="color:green">Browse through the actions: <span style="color:orange">usethis::browse_github_actions()</span></span>
 
+```r
+usethis::browse_github_actions()
+```
 <span style="color:blue">Take a look at <span style="color:orange">.github/workflows/push-container.yml.</span> When is the action triggered?</span>
 
 That's it.
